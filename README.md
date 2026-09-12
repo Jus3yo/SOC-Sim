@@ -6,7 +6,7 @@ Simulated SOC trainee queue for Cloudora. Two shifts so far: Shift 1 covered CLD
 
 ## How I worked
 
-Same structure every ticket: alert, hypotheses, evidence, reasoning, verdict, key takeaways, evidence used. Always wrote a malicious hypothesis and a benign hypothesis before looking at evidence, so I wasn't just confirming a first guess. Re-scored severity at the end using impact x confidence instead of trusting the auto-rating — that's why CLD-0203 went from Low to S3, and why CLD-0205 went from Medium to S3.
+Same structure every ticket: alert, hypotheses, evidence, reasoning, verdict, key takeaways, evidence used. Always wrote a malicious hypothesis and a benign hypothesis before looking at evidence, so I wasn't just confirming a first guess. Re-scored severity at the end using impact x confidence instead of trusting the auto-rating; that's why CLD-0203 went from Low to S3, and why CLD-0205 went from Medium to S3.
 
 ## What I found — Shift 1
 
@@ -30,7 +30,7 @@ Same structure every ticket: alert, hypotheses, evidence, reasoning, verdict, ke
 
 ## What I would do differently
 
-Should have flagged the no-MFA gap on guest accounts as its own issue instead of burying it in CLD-0203's closing notes. Also want to check handover notes first, before I start forming a theory — a couple times I checked evidence in the wrong order and had to backtrack.
+Should have flagged the no-MFA gap on guest accounts as its own issue instead of burying it in CLD-0203's closing notes. Also want to check handover notes first, before I start forming a theory; a couple times I checked evidence in the wrong order and had to backtrack.
 
 ## Contents
 
